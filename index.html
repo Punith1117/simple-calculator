@@ -9,40 +9,43 @@
 <body>
     <div class="somediv">
         <div class="container">
-            <div class="name">CALCULATOR</div>
-            <div class="display"></div>
+            <div class="name">C A L C U L A T O R</div>
+            <div class="display">
+                <div class="history"></div>
+                <div class="result"></div>
+            </div>
             <div class="keys">
-                <input type="button" value="clear" class="key">
+                <input type="button" value="clear" class="key clear">
                 <input type="button" value="" class="key backspace">
                 <div class="key" style="background-color: transparent; border: transparent; box-shadow: 0px 0px;"></div> <!-- blank -->
-                <input type="button" value="/" class="key">
+                <input type="button" value="/" class="key operator">
             </div>
             <div class="keys">
-                <input type="button" value="7" class="key">
-                <input type="button" value="8" class="key">
-                <input type="button" value="9" class="key">
-                <input type="button" value="*" class="key">
+                <input type="button" value="7" class="key num">
+                <input type="button" value="8" class="key num">
+                <input type="button" value="9" class="key num">
+                <input type="button" value="*" class="key operator">
             </div>
             <div class="keys">
-                <input type="button" value="4" class="key">
-                <input type="button" value="5" class="key">
-                <input type="button" value="6" class="key">
-                <input type="button" value="-" class="key">
+                <input type="button" value="4" class="key num">
+                <input type="button" value="5" class="key num">
+                <input type="button" value="6" class="key num">
+                <input type="button" value="-" class="key operator">
             </div>
             <div class="keys">
-                <input type="button" value="1" class="key">
-                <input type="button" value="2" class="key">
-                <input type="button" value="3" class="key">
-                <input type="button" value="+" class="key">
+                <input type="button" value="1" class="key num">
+                <input type="button" value="2" class="key num">
+                <input type="button" value="3" class="key num">
+                <input type="button" value="+" class="key operator">
             </div>
             <div class="keys">
-                <input type="button" value="0" class="key">
-                <input type="button" value="." class="key">
-                <input type="button" value="=" class="key" style="width: 65%;">
+                <input type="button" value="0" class="key num">
+                <input type="button" value="." class="key num point">
+                <input type="button" value="=" class="key operator equal" style="width: 65%;">
             </div>
         </div>
         <div class="credits">built by <a href="https://github.com/Punith1117/simple-calculator" title="source code" style="font-size: large;">Punith1117</a> </div>
     </div>
-    
+    <script src="script.js" defer></script>
 </body>
 </html>
