@@ -1,2 +1,4 @@
 # simple-calculator
-Project5 in The Odin Project
+Project5
+
+-continued to learn and gain confidence in html, css and js. 
